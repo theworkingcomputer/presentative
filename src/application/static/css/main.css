@@ -1,0 +1,60 @@
+
+/* Main stylesheet */
+
+/* @section forms */
+.btn.cancel { margin-left: 0.5rem; }
+.nowrap { white-space: nowrap; }
+
+/* Your customizations here */
+/* example:::: .navbar-brand { color: red !important; } */
+
+
+
+.nbhd {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+.nbhd img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.container {
+min-height:100%;
+position:relative;
+}
+
+.header {
+padding:10px;
+}
+
+.body {
+padding:10px;
+padding-bottom:60px;  
+}
+
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 60px;
+}
+
+/* navbar mods */
+.btn-info {
+background-color: #EEE9E9;
+}
+
+.btn.btn-info.btn-lg {
+padding: 7px;
+color: #22316C;
+}
